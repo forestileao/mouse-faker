@@ -1,1 +1,1 @@
-from .input_listener import Generator
+from .generator import Generator

@@ -32,7 +32,7 @@ class Generator:
                 self.save_current_sample(x, y)
             elif button == mouse.Button.right:
                 self.save_all_samples()
-                exit(1)
+                exit(0)
 
     def save_current_sample(self, x, y):
         self.current_sample['target_position'] = (x, y)
